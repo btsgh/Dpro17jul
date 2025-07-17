@@ -566,9 +566,9 @@
           "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
           "boxShadow": "none",
           "children": {},
-          "dataType": "number",
+          "dataType": "string",
           "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"shoulder length\"]))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "fieldType": "Number Input",
+          "fieldType": "Text Input",
           "iconAlign": "left",
           "identifier": "shoulder_length",
           "isCustomField": false,
@@ -580,7 +580,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "shoulder length",
           "position": 3,
-          "sourceData": 16
+          "sourceData": ""
         }
       },
       "dataType": "object",
